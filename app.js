@@ -35,7 +35,6 @@ class App extends React.Component {
 
 		return (
 			<div className="App">
-				<h1 className="geeks">GeeksforGeeks</h1>
 				<h3>Fetch data from an api in react</h3>
 				<div className="container">
 					{items.map((item) => (
@@ -43,15 +42,18 @@ class App extends React.Component {
 							<ol key={item.id}>
 								<div>
 									<strong>
-										{"User_Name: "}
+										{"sucess "}
 									</strong>
-									{item.username},
+									{item.sucess},
 								</div>
 								<div>
-									Full_Name: {item.name},
+									base: {item.base},
 								</div>
 								<div>
-									User_Email: {item.email}
+									timestamp: {item.timestamp},
+								</div>
+			                                        <div>
+									rates: {item.rates},
 								</div>
 							</ol>
 						</div>
