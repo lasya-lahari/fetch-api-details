@@ -1,3 +1,21 @@
-#app {
-  max-width: 600px;
+/* App.css*/
+.App {
+	text-align: center;
+	/* color: Green; */
 }
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.item {
+	min-width: 33rem;
+	text-align: left;
+}
+
+.geeks {
+	color: green;
+}
+
